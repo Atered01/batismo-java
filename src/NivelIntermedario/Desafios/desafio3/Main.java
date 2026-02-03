@@ -1,4 +1,4 @@
-package NivelIntermedario.Desafios;
+package NivelIntermedario.Desafios.desafio3;
 
 import java.util.Scanner;
 
@@ -40,6 +40,9 @@ public class Main {
                         System.out.println("Qual é a missão deste Uchiha? ");
                         uchihas[i].setMissao(sc.next());
 
+                        System.out.println("Qual é o nivel de dificuldade da missão deste Uchiha?");
+                        uchihas[i].setNivelDeDificuldade(sc.next());
+
                         System.out.println("Qual é o status da missão deste Uchiha? ");
                         uchihas[i].setStatusMissao(sc.next());
 
@@ -61,8 +64,8 @@ public class Main {
                         System.out.println("***VISUALIZAR UCHIHAS***");
                         for (int i = 0; i < maximoDeUchihas; i++) {
                             uchihas[i].mostrarInfo();
-                        }
 
+                        }
                         System.out.println("Deseja continuar no programa? [S/N]");
                         continuar = sc.next().equalsIgnoreCase("S");
                         resultado = continuar ? "Voltando para o menu..." : "Saindo...";

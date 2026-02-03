@@ -1,10 +1,11 @@
-package NivelIntermedario.Desafios;
+package NivelIntermedario.Desafios.desafio3;
 
 public class Ninja {
     private String nome;
     private int idade;
     private String missao;
     private String statusMissao;
+    private String nivelDeDificuldade;
 
     public String getNome() {
         return nome;
@@ -34,15 +35,24 @@ public class Ninja {
         return statusMissao;
     }
 
+    public String getNivelDeDificuldade() {
+        return nivelDeDificuldade;
+    }
+
+    public void setNivelDeDificuldade(String nivelDeDificuldade) {
+        this.nivelDeDificuldade = nivelDeDificuldade;
+    }
+
     public void setStatusMissao(String statusMissao) {
         this.statusMissao = statusMissao;
     }
 
-    public void mostrarInfo(){
+    public void mostrarInfo() {
         System.out.println("Nome: " + getNome()
-        + "\nIdade: " + getIdade()
-        + "\nMissao: " + getMissao()
-        + "\nStatus: " + getStatusMissao());
+                + "\nIdade: " + getIdade()
+                + "\nMissao: " + getMissao()
+                + "\nNivel de dificuldade: " + getNivelDeDificuldade()
+                + "\nStatus: " + getStatusMissao());
 
     }
 }
