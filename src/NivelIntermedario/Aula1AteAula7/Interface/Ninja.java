@@ -1,4 +1,4 @@
-package NivelIntermedario;
+package NivelIntermedario.Aula1AteAula7.Interface;
 
 public class Ninja {
     String nome;

@@ -1,4 +1,4 @@
-package NivelIntermedario;
+package NivelIntermedario.Aula1AteAula7.Interface;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,6 +33,14 @@ public class Main {
         Hinata.aldeia = "Konoha";
         Hinata.byakugan();
 
+        Boruto boruto = new Boruto();
+        boruto.nome = "Boruto";
+        boruto.aldeia = "Konoha";
+        boruto.idade = 16;
+        boruto.AtivarKarma();
+        boruto.AtivarJogan();
+        boruto.RasenganUzuhito();
+        boruto.maisChakara();
 
 
     }

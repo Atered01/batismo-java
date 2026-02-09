@@ -1,4 +1,4 @@
-package NivelIntermedario.Desafios.desafio3;
+package NivelIntermedario.Desafios.QuerMeDesafiar;
 
 public class Uchiha extends Ninja {
     private String habilidadeEspecial;
